@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 20%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,8 @@ export const Container = styled.div`
 
 export const Logo = styled.span`
   font-size: 44px;
-  color: #edc201;
+  font-weight: 700;
+  color: #EEE0A9;
   margin: 50px 0 0 0;
 `;
 
@@ -33,6 +34,7 @@ export const List = styled.li`
   display: flex;
   align-items: center;
   margin: 15px 0;
+  width: 100%;
 
   :hover {
     cursor: pointer;
@@ -42,7 +44,8 @@ export const List = styled.li`
 export const Icon = styled.img`
   width: 20px;
   height: 20px;
-  padding-right: 10px;
+  margin-right: 15px;
+  border-radius: 20px;
 `;
 
 export const LogOutButton = styled.button`

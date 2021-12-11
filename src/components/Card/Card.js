@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  margin: 10% 0;
-  justify-content: center;
+  display: flex;  
+  justify-content: space-around;
+  width: 100%;
+  margin: 80px 0 50px 0;
 `;
 
 export const ContainerAll = styled.div`
@@ -12,9 +13,8 @@ export const ContainerAll = styled.div`
   align-items: center;
   background: white;
   padding: 15px 20px;
-  margin: 0 22px;
   border-radius: 8px;
-  box-shadow: 2px 5px 20px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 5px 10px 1px rgba(0,0,0,0.2);
 `;
 
 export const Content = styled.div`

@@ -4,6 +4,7 @@ import notification from '../../assets/img/icons/notification.png';
 import user from '../../assets/img/icons/user.png';
 import search from '../../assets/img/icons/search.png';
 import Card from '../Card';
+import Chart from '../Chart';
 
 export default function RenderContent() {
     return (
@@ -19,6 +20,7 @@ export default function RenderContent() {
                 </ContentRight>
             </Navbar>
             <Card/>
+            <Chart />
         </Container>
     )
 }
